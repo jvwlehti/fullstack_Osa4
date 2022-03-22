@@ -1,7 +1,7 @@
-POST http://localhost:3001/api/login
+PUT http://localhost:3001/api/blogs/623856f4c7ae75fc3f0ea78f
 Content-Type: application/json
 
 {
-    "username": "mkekkonen",
-    "password": "salasana"
+    "author": "Kake Randelin",
+    "likes": 100
 }
